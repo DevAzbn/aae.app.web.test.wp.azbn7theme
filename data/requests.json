@@ -1,0 +1,18 @@
+{
+	"items" : [
+		{
+			"method" : "POST",
+			"url" : "http://polka.dorohovdesign.ru/wp-admin/admin-ajax.php",
+			"form" : {
+				"action" : "azbnajax_call",
+				"method" : "formsave_ask",
+				"type" : "plain",
+				"f" : {
+					"Имя" : "aae test",
+					"Телефон" : "+7896541230",
+					"Email" : "test@test.com"
+				}
+			}
+		}
+	]
+}
